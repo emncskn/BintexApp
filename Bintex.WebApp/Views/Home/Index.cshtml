@@ -1,0 +1,12 @@
+﻿@{ 
+    Layout = "~/Views/Shared/LayoutWeb.cshtml";
+}
+
+@if (ViewBag.Username != null)
+{
+<p>Hoş Geldin @(ViewBag.Username.Name + " " + ViewBag.Username.Surname)</p>
+}
+else { 
+
+<a href="/Account/Login">Oturum Aç</a>
+}

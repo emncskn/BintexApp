@@ -1,0 +1,15 @@
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Data\bin\Debug\net5.0\Bintex.Data.deps.json
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Data\bin\Debug\net5.0\Bintex.Data.dll
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Data\bin\Debug\net5.0\Bintex.Data.pdb
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Data\bin\Debug\net5.0\Bintex.Core.dll
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Data\bin\Debug\net5.0\Bintex.Core.pdb
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Data\obj\Debug\net5.0\Bintex.Data.csproj.AssemblyReference.cache
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Data\obj\Debug\net5.0\Bintex.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Data\obj\Debug\net5.0\Bintex.Data.AssemblyInfoInputs.cache
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Data\obj\Debug\net5.0\Bintex.Data.AssemblyInfo.cs
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Data\obj\Debug\net5.0\Bintex.Data.csproj.CoreCompileInputs.cache
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Data\obj\Debug\net5.0\Bintex.Data.csproj.CopyComplete
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Data\obj\Debug\net5.0\Bintex.Data.dll
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Data\obj\Debug\net5.0\ref\Bintex.Data.dll
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Data\obj\Debug\net5.0\Bintex.Data.pdb
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Data\obj\Debug\net5.0\refint\Bintex.Data.dll

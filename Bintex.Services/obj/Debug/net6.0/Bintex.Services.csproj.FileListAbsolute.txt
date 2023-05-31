@@ -1,0 +1,17 @@
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\bin\Debug\net6.0\Bintex.Services.deps.json
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\bin\Debug\net6.0\Bintex.Services.dll
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\bin\Debug\net6.0\Bintex.Services.pdb
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\bin\Debug\net6.0\Bintex.Core.dll
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\bin\Debug\net6.0\Bintex.Data.dll
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\bin\Debug\net6.0\Bintex.Core.pdb
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\bin\Debug\net6.0\Bintex.Data.pdb
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\obj\Debug\net6.0\Bintex.Services.csproj.AssemblyReference.cache
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\obj\Debug\net6.0\Bintex.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\obj\Debug\net6.0\Bintex.Services.AssemblyInfoInputs.cache
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\obj\Debug\net6.0\Bintex.Services.AssemblyInfo.cs
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\obj\Debug\net6.0\Bintex.Services.csproj.CoreCompileInputs.cache
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\obj\Debug\net6.0\Bintex.Services.csproj.CopyComplete
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\obj\Debug\net6.0\Bintex.Services.dll
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\obj\Debug\net6.0\refint\Bintex.Services.dll
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\obj\Debug\net6.0\Bintex.Services.pdb
+C:\EmineCoskun\Dotnet\Bintex\Bintex.Services\obj\Debug\net6.0\ref\Bintex.Services.dll
