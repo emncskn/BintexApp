@@ -36,7 +36,7 @@
                                 <td>@item.Name</td>
                                 <td>
                                     <a href="/Account/UpdateRole/@item.Id" class="btn btn-success">Güncelle</a>
-                                    <a href="/Account/DeleteRole/@item.Id" class="btn btn-danger">Sil</a>
+                                    <button data-val="@item.Id" type="button" class="deleteRoleButton btn btn-danger">Sil</button>
                                 </td>
                             </tr>
                         }
@@ -46,3 +46,20 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    $(".deleteRoleButton").click(function(){
+        alert("Silmek istediğinize emin misiniz ?");
+        $.post(
+            "/Account/DeleteRole",
+            {
+                id:$(this).attr("data-val")
+            },
+            function(response){
+                if(response.status == true){
+                    window.location.href="/Account/Roles"
+                }
+            }
+        )
+    });
+
+</script>

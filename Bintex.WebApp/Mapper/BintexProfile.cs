@@ -10,8 +10,10 @@ namespace Bintex.WebApp.Mapper
         public BintexProfile()
         {
             CreateMap<BintexRole, RoleListViewModel>();
+            CreateMap<BintexRole, RoleAddViewModel>().ReverseMap();
+            CreateMap<BintexRole, RoleUpdateViewModel>().ReverseMap();
 
-            
+
         }
     }
 }

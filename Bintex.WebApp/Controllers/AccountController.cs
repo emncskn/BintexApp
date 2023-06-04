@@ -104,10 +104,70 @@ namespace Bintex.WebApp.Controllers
 
         #endregion
 
+        #region
         public async Task<IActionResult> Roles()
         {
            var dataList = _database.Roles.ToList().Select(item => _mapper.Map<RoleListViewModel>(item)).ToList();
             return View(dataList);
         }
+
+        public async Task<IActionResult> AddRole()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddRole(RoleAddViewModel vm)
+        {
+            var isExist = _database.Roles.Any(p => p.Name == vm.Name);
+
+            if (isExist) 
+            {
+                ModelState.AddModelError("Name", "Bu rol zaten mevcut");
+                return View(vm);
+            }
+
+
+            var br = _mapper.Map<BintexRole>(vm);
+            br.NormalizedName = vm.Name.ToUpperInvariant();
+            _database.Roles.Add(br);
+            _database.SaveChanges();
+            return RedirectToAction("Roles");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteRole(string id)
+        {
+            var findedUser =_database.Roles.FirstOrDefault(p=> p.Id == Convert.ToInt32(id));
+            if (findedUser == null)
+                return Json(new { status = false });
+
+            _database.Roles.Remove(findedUser);
+            _database.SaveChanges();
+            return Json(new { status = true });
+        }
+
+
+        public async Task<IActionResult> UpdateRole(int id)
+        {
+            var findedUser = _database.Roles.FirstOrDefault(p => p.Id ==id);
+            if (findedUser == null)
+                return RedirectToAction("Roles");
+
+            var model = _mapper.Map<RoleUpdateViewModel>(findedUser);
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateRole(RoleUpdateViewModel vm)
+        {
+            var findedRole = _database.Roles.FirstOrDefault(p=>p.Id == vm.Id);
+            findedRole.NormalizedName = vm.Name.ToUpperInvariant();
+            findedRole.Name = vm.Name;
+            _database.SaveChanges();
+            return RedirectToAction("Roles");
+        }
+
+        #endregion
     }
 }
